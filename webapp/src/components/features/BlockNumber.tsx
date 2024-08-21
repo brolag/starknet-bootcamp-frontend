@@ -1,5 +1,3 @@
-import React from 'react';
-
 function BlockNumber() {
   return (
     <div className="bg-gradient-to-r from-blue-500 to-purple-600 text-white shadow-lg rounded-xl p-8 transition-all duration-300 hover:shadow-xl">
@@ -11,5 +9,4 @@ function BlockNumber() {
     </div>
   );
 }
-
 export default BlockNumber;

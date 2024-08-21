@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '../ui/Button';
 
-export default function ReadContract() {
+function ReadContract() {
   const [contractData, setContractData] = React.useState('');
 
   const handleReadContract = () => {
@@ -22,3 +22,5 @@ export default function ReadContract() {
     </div>
   );
 }
+
+export default ReadContract;

@@ -10,7 +10,7 @@ export const Button = ({ children, variant = 'primary', ...props }: ButtonProps)
   
   const variantStyles = {
     primary: "bg-yellow-500 text-gray-900 hover:bg-yellow-600 focus:ring-yellow-400",
-    secondary: "bg-gray-600 text-white hover:bg-gray-700 focus:ring-gray-500",
+    secondary: "bg-gray-600 text-gray-800 hover:bg-gray-700 focus:ring-gray-500",
     outline: "bg-transparent border-2 border-yellow-500 text-yellow-500 hover:bg-yellow-50 focus:ring-yellow-400"
   };
 

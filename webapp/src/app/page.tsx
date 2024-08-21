@@ -16,7 +16,7 @@ export default function Home() {
         <WalletBar />
         {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-4xl"> */}
           {/* Step 1: Read Data - Display block number */}
-          {/* <BlockNumber /> */} 
+          {/* <BlockNumber />  */}
           {/* Step 2: Read Balance - Display account balance */}
           {/* <AccountBalance /> */}
           {/* Step 3: Read Contract - Fetch data from deployed smart contract */}
