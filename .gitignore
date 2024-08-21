@@ -1,0 +1,41 @@
+# contracts
+target
+.snfoundry_cache/
+.DS_Store
+
+# dependencies
+/webapp/node_modules
+/.pnp
+/webapp/.pnp.js
+/webapp/.yarn/install-state.gz
+
+# testing
+/webapp/coverage
+
+# next.js
+/webapp/.next/
+/webapp/out/
+
+# production
+/webapp/build
+
+# misc
+.DS_Store
+*/DS_Store
+*.pem
+
+# debug
+/webapp/npm-debug.log*
+/webapp/yarn-debug.log*
+/webapp/yarn-error.log*
+
+# local env files
+/webapp/.env*.local
+/webapp/.env
+
+# vercel
+/webapp/.vercel
+
+# typescript
+/webapp/*.tsbuildinfo
+/webapp/next-env.d.ts
