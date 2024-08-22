@@ -1,7 +1,5 @@
 import { useAccount, useBalance } from "@starknet-react/core";
 
-
-
 function AccountBalance() {
   const { address } = useAccount();
   const { isLoading, isError, error, data } = useBalance({
