@@ -6,7 +6,7 @@ import { useAccount } from "@starknet-react/core";
 import BlockNumber from "@/components/features/BlockNumber";
 import AccountBalance from "@/components/features/AccountBalance";
 import ReadContract from "@/components/features/ReadContract";
-// import WriteContract from "@/components/features/WriteContract";
+import WriteContract from "@/components/features/WriteContract";
 
 import Footer from "@/components/ui/Footer";
 
@@ -30,7 +30,7 @@ export default function Home() {
             {/* Step 3: Read Contract - Fetch data from deployed smart contract */}
             <ReadContract />
             {/* Step 4: Write Contract - Update status of smart contract */}
-            {/* <WriteContract /> */}
+            <WriteContract />
           </div>
         )}
       </main>
